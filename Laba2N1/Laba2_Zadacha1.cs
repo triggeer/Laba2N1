@@ -9,7 +9,7 @@ class Laba2_Zadacha1
         int field2 = Proverka("2-е значение: ");
         int field3 = Proverka("3-е значение: ");
 
-        var baseObj = new BaseClass(field1, field2, field3);
+        BaseClass baseObj = new BaseClass(field1, field2, field3);
         Console.WriteLine(baseObj.ToString());
         Console.WriteLine($"Максимальное значение: {baseObj.GetMaxValue()}");
 
@@ -21,7 +21,7 @@ class Laba2_Zadacha1
         int coefficient2 = Proverka("2-й коэффициент: ");
         int coefficient3 = Proverka("3-й коэффициент: ");
 
-        var obj2 = new Class2(field1, field2, field3, coefficient1, coefficient2, coefficient3);
+        Class2 obj2 = new Class2(field1, field2, field3, coefficient1, coefficient2, coefficient3);
         Console.WriteLine(obj2.ToString());
         Console.WriteLine($"Сумма значений: {obj2.SumFields()}");
         Console.WriteLine($"Умноженная сумма значений: {obj2.MultiplyFields()}");
